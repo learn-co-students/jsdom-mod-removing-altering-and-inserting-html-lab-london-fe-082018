@@ -5,13 +5,12 @@ main.remove()
 
 /* Create your new element here and assign it to newHeader */
 
-var element = document.createElement('newHeader')
+var element = document.createElement('h1')
 document.body.appendChild(element)
 
-let newHeader = document.createElement('h1');
-newHeader.setAttribute = ("id", "Victory");
-newHeader.innerText = "Donna is the Champion!";
+let newHeader = document.querySelector('h1');
+newHeader.id = "victory"
+newHeader.innerText = "Donna is the champion!";
 
-element.appendChild(newHeader);
 
 
